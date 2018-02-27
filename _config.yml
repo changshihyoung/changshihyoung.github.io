@@ -1,10 +1,10 @@
 # Site settings
-title: Changshihyoung's Blog
-SEOTitle: 张诗阳的博客 | Changshihyoung's Blog
+title: ChangShihyoung's Blog
+SEOTitle: 张诗阳的博客 | ChangShihyoung's Blog
 header-img: img/home-bg.jpg
 email: changshihyoung@gmail.com
 description: "这里是 张诗阳（ChangShihyoung） 的个人博客"
-keyword: "张诗阳, changshihyoung, 信息隐藏, 隐写分析, 机器学习, 深度学习"
+keyword: "张诗阳, changshihyoung, 信息隐藏, 数字水印, 隐写分析, 机器学习, 深度学习"
 url: "https://changshihyoung.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -67,7 +67,7 @@ ga_domain: auto
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "中科院信息工程研究所<br />信息安全国家重点实验室"
+sidebar-about-description: "中科院信息工程研究所<br />信息安全国家重点实验室<br />信息隐藏，数字水印<br />隐写分析，机器学习<br />深度学习"
 sidebar-avatar: /img/avatar-g.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
