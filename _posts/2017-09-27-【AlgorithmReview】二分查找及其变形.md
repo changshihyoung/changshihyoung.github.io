@@ -177,4 +177,4 @@ public:
 };
 ```
 
-![二分查找的变形总结](img/post-2017-9-27-graph-1.png)
+![二分查找的变形总结](https://github.com/changshihyoung/changshihyoung.github.io/blob/master/img/post-2017-9-27-graph-1.png)
