@@ -111,7 +111,8 @@ public:
 		return right;  //不存在时返回-1
     }
 };
-```
+```  
+
 - 查找第一个大于key的元素  
 ```
 class Solution {
@@ -129,7 +130,8 @@ public:
     }
 };
 
-```
+```  
+
 - 查找第一个与key相等的元素  
 ```
 class Solution {
@@ -152,7 +154,8 @@ public:
 			return -1;
     }
 };
-```
+```  
+
 - 查找最后一个与key相等的元素  
 ```
 class Solution {
@@ -177,4 +180,4 @@ public:
 };
 ```
 
-![二分查找的变形总结](https://github.com/changshihyoung/changshihyoung.github.io/blob/master/img/post-2017-9-27-graph-1.png)
+![二分查找的变形总结](https://github.com/changshihyoung/changshihyoung.github.io/blob/master/img/post-2017-9-27-graph-1.png?raw=true)
