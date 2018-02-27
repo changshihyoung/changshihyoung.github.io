@@ -43,7 +43,7 @@ tags:
 #### 二分查找具体实现  
 详细参考：[博客-你真的会写二分查找吗](https://www.cnblogs.com/bofengyu/p/6761389.html)  
 - 标准二分查找  
-```
+```C++
 class Solution {
 public:
     int BinarySearch(vector<int>& numbers, int target) {
@@ -62,7 +62,7 @@ public:
 };
 ```
 - 查找最后一个小于key的元素  
-```
+```C++
 class Solution {
 public:
     int BinarySearch(vector<int>& numbers, int target) {
@@ -79,7 +79,7 @@ public:
 };
 ```
 - 查找第一个大于等于key的元素
-```
+```C++
 class Solution {
 public:
     int BinarySearch(vector<int>& numbers, int target) {
@@ -96,7 +96,7 @@ public:
 };
 ```
 - 查找最后一个小于等于key的元素  
-```
+```C++
 class Solution {
 public:
     int BinarySearch(vector<int>& numbers, int target) {
@@ -111,10 +111,9 @@ public:
 		return right;  //不存在时返回-1
     }
 };
-```  
-
-- 查找第一个大于key的元素  
 ```
+- 查找第一个大于key的元素  
+```C++
 class Solution {
 public:
     int BinarySearch(vector<int>& numbers, int target) {
@@ -129,11 +128,9 @@ public:
 		return left;  //不存在时返回numbers.size()
     }
 };
-
-```  
-
-- 查找第一个与key相等的元素  
 ```
+- 查找第一个与key相等的元素  
+```C++
 class Solution {
 public:
     int BinarySearch(vector<int>& numbers, int target) {
@@ -154,10 +151,9 @@ public:
 			return -1;
     }
 };
-```  
-
-- 查找最后一个与key相等的元素  
 ```
+- 查找最后一个与key相等的元素  
+```C++
 class Solution {
 public:
     int BinarySearch(vector<int>& numbers, int target) {
